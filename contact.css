@@ -1,0 +1,478 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;  
+}
+
+dl, ol, ul{
+    margin-bottom: 0;
+}
+
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, p {
+    font-family: 'Inter', sans-serif;
+}
+
+nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 60px;
+    background-color: black;
+    width: 100%;
+    z-index: 1000;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+
+nav ul{
+    display: flex;
+    gap: 60px;
+    margin-bottom: 0;
+}
+
+nav a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.logo a{
+    line-height: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+#gauche{
+    padding-left: 20px;
+}
+
+.logo p{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+nav ul a{
+    font-weight: 500;
+}
+
+#rouge{
+    color: #DB2323;
+}
+
+
+.baniere{
+    position: relative;
+    height: 350px;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(galerie.img/Accueil\ 1.jpg);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.baniere h1{
+    color: #fff;
+    padding-top: 100px;
+}
+
+.meilleurs{
+    margin-top: 40px;
+    text-align: center;
+    color: #DB2323;
+    font-size: 1em;
+    padding: 2px 150px;
+}
+
+.meilleurs h1{
+    font-size: 2em;
+    margin-bottom: 20px
+}
+
+.fiche{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 80px 270px;
+    font-family:'Inknut Antiqua', serif;
+}
+
+
+.fiche-contact{
+    text-align: left;
+    font-family:'Inknut Antiqua', serif;
+}
+
+
+.fiche h3{
+    font-weight: bold;
+    font-size: 25px;
+    padding-bottom: 0px;
+    padding-top: 15px;
+    font-family:'Inknut Antiqua', serif;
+}
+
+.fiche p{
+    font-size: 15px;
+    padding: 0;
+    margin: 5px;
+    font-family:'Inknut Antiqua', serif;
+}
+
+.form-container {
+    background-color: #e5c6c6;
+    border-radius: 15px; 
+    padding: 30px;
+    width: 450px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.form-container h2 {
+    margin-bottom: 60px;
+    font-size: 24px;
+    color: black;
+    letter-spacing: 1px;
+    font-family:'Inknut Antiqua', serif;
+}
+
+.form-group {
+    text-align: left;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: black;
+    margin-bottom: 0px;
+    font-family:'Inknut Antiqua', serif;
+}
+
+.form-group input, textarea{
+    width: 100%;
+    padding: 0px 0;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+    color: black;
+    font-family:'Inknut Antiqua', serif;
+}
+
+.form-container button {
+    background-color: #DB2323;
+    color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: none;
+    margin-left: 250px ;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+footer{
+    background-color: #000000;
+    margin-top: 20px;
+    padding: 20px 30px;
+    color: #fff;
+}
+
+.element{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+footer .element a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+footer .icone{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 250px;
+}
+
+.icone i{
+    color: #fff;
+    font-size: 35px;
+}
+
+.localisation{
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.localisation p{
+    padding: 0;
+    margin: 0;
+}
+
+#red{
+    color: #DB2323;
+    font-size: 1em;
+}
+
+.mail p{
+    display: flex;
+    gap: 0;
+}
+
+.mail{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    font-size: 1.3em;
+    align-items: center;
+}
+
+.mail i{
+    font-size: 25px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.mail span{
+    font-size: 1.em;
+    color: #ffffff8f;
+    padding-left: px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.droit{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+.droit span{
+    color: #DB2323;
+}
+
+
+@media screen and (max-width : 1024px){
+    .mail{
+        font-size: 1em;
+    }
+    }
+
+    .fiche {
+        padding: 80px 150px;
+    }
+    
+    
+    @media screen and (max-width : 768px){
+
+        .fiche{
+            padding: 80px 50px;
+        }
+    
+    nav{
+        padding: 10px 10px;
+    }
+    
+    .paiement {
+    padding: 50px 10px;
+    }
+    
+    .chiffres{
+        margin-right: 0;
+        margin-left: 0;
+    }
+    
+    .valeur{
+        padding: 5px 10px;
+    }
+    
+    footer .element a{
+        font-size: 1em;
+    }
+    
+    footer .icone {
+    padding: 40px 100px;
+    }
+    
+    .localisation {
+    font-size: 0.9em;
+    }
+    
+    .mail{
+        display: block;
+    }
+    }
+    
+    @media screen and (max-width : 425px){
+
+        .fiche{
+            display: block;
+            text-align: center;
+            align-items: center;
+            padding: 38px;
+        }
+
+        .form-container button{
+            margin-left: 0;
+        }
+
+        .fiche-contact{
+            text-align: center;
+            align-items: center;
+            margin-left: px;
+            margin-bottom: 40px;
+        }
+
+        .form-container{
+            width: 350px;
+            text-align: center;
+        }
+    
+        nav{
+            display: block;
+            position: relative;
+        }
+
+        nav ul a{
+            font-size: 0.8em;
+        }
+    
+        nav ul{
+            gap: 15px; 
+            padding-top: 10px;
+            padding-left: 50px;
+            text-align: center;
+            align-items: center;   
+        }
+
+        .meilleurs{
+            padding: 0;
+        }
+
+        .meilleurs h1{
+            font-size: 1.5em;
+        }
+
+
+
+        .paie{
+    padding: 5px;
+        }
+    
+        .paiement img{
+            width: 150px;
+        }
+    
+        .choisir h2 {
+            font-size: 1.5em;
+        }
+    
+        .choisir p{
+            font-size: 0.9em;
+        }
+    
+        .valeur{
+            padding: 0;
+            margin: 5px;
+        }
+    
+        .val{
+            padding: 10px 5px;
+        }
+    
+        .val p{
+            font-size: 0.5em;
+        }
+    
+        .val h2{
+            font-size: 1em;
+        }
+    
+        .element{
+            display: block;
+        }
+    
+        footer .icone {
+            padding: 40px 10px;
+        }
+    
+        .mail{
+            padding: 20px 0px;
+        }
+    }
+    
+    
+    @media screen and (max-width : 375px){
+
+        .fiche-contact{
+            padding: 37px;
+        }
+
+        .fiche{
+            padding: 25px;
+        }
+
+        .form-container{
+            width: 330px;
+        }
+
+    
+        nav ul a{
+            font-size: 12px;
+        }
+    
+        nav ul{
+            padding-left: 30px;
+        }
+    
+        .paie p{
+            font-size: 0.9em;
+    
+        }
+    }
+    
+    @media screen and (max-width : 320px){
+        nav ul{
+            display: block;
+        }
+    
+        nav{
+            display: flex;
+        }
+    
+        .paie p{
+            font-size: 0.7em;
+        }
+    
+        .val img{
+            width: 70px;
+        }
+
+        .meilleurs h1{
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+        }
+
+        .form-container{
+            width: 270px;
+        }
+    }

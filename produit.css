@@ -1,0 +1,387 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;  
+}
+
+dl, ol, ul{
+    margin-bottom: 0;
+}
+
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, p {
+    font-family: 'Inter', sans-serif;
+}
+
+        nav{
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            background-color: black;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 30px;
+            z-index: 1000;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            box-sizing: border-box;
+        }
+        
+        nav ul{
+            display: flex;
+            gap: 60px;
+            margin-bottom: 0;
+        }
+        
+        nav a{
+            text-decoration: none;
+            color: #fff;
+        }
+        
+        .logo a{
+            line-height: 3px;
+            font-size: 18px;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+        }
+        
+        #gauche{
+            padding-left: 20px;
+        }
+        
+        .logo p{
+            margin-bottom: 0;
+            margin-top: 0;
+        }
+        
+        nav ul a{
+            font-weight: 500;
+        }
+        
+        #rouge{
+            color: #DB2323;
+        }
+
+
+        .content {
+            margin-top: 100px;
+            margin-bottom: 20px; 
+            text-align: center;
+            display: flex;
+            gap: 100px;
+            position: relative;
+            justify-content: center;
+        }
+
+        .img{
+            background-image: url(galerie.img/nos\ produits\ 1.png);
+            width:  100%;
+            height: 450px;
+            background-repeat: no-repeat;
+            background-size: cover;
+            overflow: hidden;
+            position: relative;
+            display: flex;
+        }
+
+        .meilleurs{
+            margin-top: 40px;
+            text-align: center;
+            color: #DB2323;
+            font-size: 1.1em;
+            margin-bottom: 50px;
+        }
+
+
+        #bouton{
+            background-color: #DB2323;
+            border: none;
+            padding: 10px;
+            margin: 0;
+        }
+
+        .rdi2{
+            color: #fff;
+        }
+
+        .row{
+            align-items: center;
+            text-align: center;
+            justify-content: space-between;
+            padding: 0px 10px;
+            gap: 55px;
+            margin: 10px 30px;
+        }
+
+        .row img{
+            width: 260px;
+            height: 200px;
+        }
+
+        .row .col{
+            border: rgba(0, 0, 0, 0.301) 1px solid;
+            gap: 10px;
+            margin: 20px 2px;
+            width: 349px;
+            padding: 0;
+            margin-bottom: 60px;
+        }
+
+        .row .col p{
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .black{
+            padding-top: px;
+            padding-bottom: 20px;
+            background-color: black;
+            text-align: right;
+        }
+
+        .black .rdi2{
+            padding: 50px;
+        }
+
+        footer{
+            width: 100%;
+            background-color: #000000;
+            margin-top: 20px;
+            padding: 20px 30px;
+            color: #fff;
+        }
+        
+        .element{
+            display: flex;
+            justify-content: space-between;
+            padding: 0px 10px;
+        }
+        
+        footer .element a{
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.5em;
+        }
+        
+        footer .icone{
+            display: flex;
+            justify-content: space-between;
+            padding: 40px 250px;
+        }
+        
+        .icone i{
+            color: #fff;
+            font-size: 35px;
+        }
+        
+        .localisation{
+            padding: 20px 30px;
+            text-align: center;
+            font-size: 1.5em;
+        }
+        
+        .localisation p{
+            padding: 0;
+            margin: 0;
+        }
+        
+        #red{
+            color: #DB2323;
+            font-size: 1em;
+        }
+        
+        .mail p{
+            display: flex;
+            gap: 0;
+        }
+        
+        .mail{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 100px;
+            font-size: 1.3em;
+            align-items: center;
+        }
+        
+        .mail i{
+            font-size: 25px;
+            color: #fff;
+            margin-right: 5px;
+        }
+        
+        .mail span{
+            font-size: 1.em;
+            color: #ffffff8f;
+            padding-left: px;
+            padding-top: 0;
+            margin-top: 0;
+        }
+        
+        .droit{
+            padding-top: 20px;
+            text-align: center;
+            font-size: 0.6em;
+        }
+        
+        .droit span{
+            color: #DB2323;
+        }
+
+
+
+        @media screen and (max-width : 1024px){
+
+
+            .mail{
+                font-size: 1em;
+            }
+
+            .row img {
+                width: 200px;
+            }
+
+
+        }
+
+
+
+
+
+        @media screen and (max-width : 768px){
+
+            nav{
+                padding: 10px 10px;}
+
+                footer .element a{
+                    font-size: 1em;
+                }
+                
+                footer .icone {
+                padding: 40px 100px;
+                }
+                
+                .localisation {
+                font-size: 0.9em;
+                }
+                
+                .mail{
+                    display: block;
+                }    
+
+                .content {
+                    gap:50px;
+                }
+
+                .row img {
+                    width: 230px;
+                }
+                
+
+
+
+        }
+
+
+
+        @media screen and (max-width : 425px){
+
+
+            nav{
+                display: block;
+                position: relative;
+            }
+        
+            nav ul{
+                gap: 15px; 
+                padding-top: 10px;
+                padding-left: 50px;
+                text-align: center;
+                align-items: center;   
+            }
+
+            footer .icone {
+                padding: 40px 10px;
+            }
+        
+            .mail{
+                padding: 20px 0px;
+            }
+
+            .content h3{
+                font-size: 0.7em;
+                font-weight: bold;
+            }
+
+            .content{
+                margin-top: 30px;
+            }
+
+            nav ul{
+                padding-top: 20px;
+                padding-left: 0;
+                text-align: center;
+                align-items: center;
+            }
+
+            .meilleurs h1{
+                font-size: 1.2em;
+            }
+
+            .row .col{
+                margin: 0;
+            }
+
+
+            .element{
+                display: block;
+            }
+        }
+
+
+
+
+        @media screen and (max-width : 375px){
+
+            nav ul a{
+                font-size: 12px;
+            }
+        
+            nav ul{
+                padding-left: 30px;
+            }
+
+            .content {
+                gap: 20px;
+            }
+
+
+        }
+
+
+        @media screen and (max-width : 320px){
+
+            nav ul{
+                display: block;
+            }
+        
+            nav{
+                display: flex;
+            }
+
+            nav ul{
+                padding: 0;
+            }
+
+
+
+
+
+        }

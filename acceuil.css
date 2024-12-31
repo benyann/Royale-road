@@ -1,0 +1,614 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;  
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+h1, h2, h3, p {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    width: 100%;
+    position: relative;
+}
+
+.block-couleur{
+    width: 100%;
+    height: 30px;
+    background-color: #1E1E1E;
+}
+
+#head{
+    display: flex;
+    text-align: left;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 10px 20px;
+    justify-content: space-between;
+}
+
+.teleph{
+    display: flex;
+    gap: 20px;
+}
+
+.tel{
+    display: flex;
+    align-items: center;
+}
+
+.tel i{
+    font-size: 1.5em;
+}
+
+.tel p{
+    margin: 0;
+    font-size: 0.6em;
+}
+
+.panier{
+    display: flex;
+    align-items: center;
+}
+
+.panier i{
+    font-size: 1.5em;
+}
+
+.panier p{
+    margin: 0;
+    font-size: 0.6em;
+}
+
+header form{
+    display: flex;
+}
+
+.head .input{
+    width: 482px;
+    max-height: 66px;
+}
+
+.logo p{
+    margin-bottom: 0;
+}
+
+.logo a{
+    line-height: 3px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+#gauche{
+    padding-left: 20px;
+}
+
+nav{
+    background-color: #DB2323;
+    text-align: right;
+    padding-right: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav li{
+    display: inline-flex;
+}
+
+nav ul{
+    margin-bottom: 0;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 50px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.hero{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(galerie.img/Accueil\ 1.jpg);
+    height: 450px;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.hero .hello{
+    padding-top: 160px;
+    font-size: 70px;
+    padding-left: 40px;
+}
+
+.hero #left{
+    color:#DB2323;
+    padding-left: 80px;
+}
+
+.hero .flex{
+    display: flex;
+    gap: 80px;
+    padding-top: 130px;
+    padding-left: 250px;
+}
+
+.car{
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.car .categorie{
+    display: flex;
+    background-color: #000000;
+    padding: 30px 60px;
+    margin-bottom: 30px;
+    gap: 250px;
+    justify-content: space-between;
+
+}
+
+.car .col{
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    gap: 50px;
+}
+
+.car .col .descrp{
+    display: inline-flex;
+    gap: 102px;
+    border: #1e1e1e1e solid 1px;
+    padding: 5px 5px;
+    margin-bottom: 0;
+}
+
+.car .col img{
+    width: 200px;
+    height: 200px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 3px;
+}
+
+.car .col p{
+    margin-bottom: 0 ;
+}
+
+.car .row{
+    margin-bottom: 50px;
+}
+
+.accueil2 .container-fluid{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(galerie.img/Accueil\ 2\ 1.jpg);
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.accueil2 .container-fluid .chiffres{
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    padding-top: 100px;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.accueil2 .container-fluid .chiffres h1{
+    font-weight: bold;
+}
+
+.accueil2{
+    margin-bottom: 50px;
+}
+
+.valeur .col{
+    margin-top: 40px;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+}
+
+.valeur .col img{
+    width: 350px;
+    margin-bottom: 30px;
+}
+
+.valeur .text{
+    margin:0 35px;
+    background-color: #D9D9D9;
+    border: 1px #0000002a solid ;
+}
+
+.valeur .text{
+    text-align: center;
+}
+
+footer{
+    background-color: #000000;
+    margin-top: 20px;
+    padding: 20px 30px;
+    color: #fff;
+}
+
+.element{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+footer .element a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+footer .icone{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 250px;
+}
+
+.icone i{
+    color: #fff;
+    font-size: 35px;
+}
+
+.localisation{
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.localisation p{
+    padding: 0;
+    margin: 0;
+}
+
+#red{
+    color: #DB2323;
+    font-size: 1em;
+}
+
+.mail p{
+    display: flex;
+    gap: 0;
+}
+
+.mail{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    font-size: 1.3em;
+    align-items: center;
+}
+
+.mail i{
+    font-size: 25px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.mail span{
+    font-size: 1.em;
+    color: #ffffff8f;
+    padding-left: px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.droit{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+.droit span{
+    color: #DB2323;
+}
+
+#form{
+    border-radius: 0%;
+}
+
+#bouton{
+    background-color: #DB2323;
+    border: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.rdi{
+    border-radius: 10px;
+}
+
+.rdi2{
+    color: #fff;
+}
+
+
+@media screen and (max-width : 1024px){
+
+    .mail{
+        font-size: 1em;
+    }
+    }
+
+    .fiche {
+        padding: 80px 150px;
+    }
+    
+    .valeur .col img{   
+    width: 250px;
+}
+    .car .col img {
+    width: 200px;
+}
+
+    .car .categorie {
+        gap: 0px;
+    }
+
+    footer{
+    background-color: #000000;
+    margin-top: 20px;
+    padding: 20px 30px;
+    color: #fff;
+}
+
+.element{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+footer .element a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+footer .icone{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 250px;
+}
+
+.icone i{
+    color: #fff;
+    font-size: 35px;
+}
+
+.localisation{
+    padding: 20px 30px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.localisation p{
+    padding: 0;
+    margin: 0;
+}
+
+#red{
+    color: #DB2323;
+    font-size: 1em;
+}
+
+.mail p{
+    display: flex;
+    gap: 0;
+}
+
+.mail{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    font-size: 1.3em;
+    align-items: center;
+}
+
+.mail i{
+    font-size: 25px;
+    color: #fff;
+    margin-right: 5px;
+}
+
+.mail span{
+    font-size: 1.em;
+    color: #ffffff8f;
+    padding-left: px;
+    padding-top: 0;
+    margin-top: 0;
+}
+
+.droit{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 0.6em;
+}
+
+.droit span{
+    color: #DB2323;
+}
+
+#form{
+    border-radius: 0%;
+}
+
+#bouton{
+    background-color: #DB2323;
+    border: none;
+    padding: 10px;
+    margin: 0;
+}
+
+.rdi{
+    border-radius: 10px;
+}
+
+.rdi2{
+    color: #fff;
+}
+
+.mail{
+    display: block;
+}
+
+
+
+@media screen and (max-width : 768px){
+    .hero .flex{
+        padding-left: 150px;
+    }
+    .valeur .col img {
+        width: 200px;}
+    .element{
+        display: block;
+    }
+    .localisation {
+        font-size: 1.1em;
+    }
+    .mail{
+        display: block;
+    }
+
+    .block-couleur{
+        height: 10px;
+    }
+    .valeur .col{
+        width: 0px;
+    }
+}
+
+@media screen and (max-width : 425px){
+    #head{
+        display: block;
+        margin: 10px;
+    }
+
+    .mail p{
+        font-size: 1em;
+    }
+
+    .valeur .col{
+        width: 300px;
+    }
+
+    .teleph{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 20px;
+    }
+
+    header form{
+        margin-top: 20px;
+    }
+
+    nav li{
+        display: inline-flex;
+    }
+
+    nav{
+        padding-right: 0;
+        text-align: left;
+    }
+
+    nav a{
+        font-size: 8px;
+    }
+
+    nav ul{
+        padding-left: 0;
+    }
+
+    .hero .flex{
+        padding-left: 0;
+        gap: 60px;
+    }
+
+    .hero .hello{
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .hero #left{
+        padding-left: 0;
+    }
+
+    .car .categorie{
+        padding: 30px 20px;
+    }
+
+    .valeur .col img{
+        width: 330px;
+    }
+
+    .element{
+        padding: 0px 0px;
+        font-size: 0.8em;
+    }
+
+    footer .icone{
+        padding: 20px 0px;
+    }
+
+    .localisation{
+        text-align: left;
+        font-size: 0.9em;
+    }
+
+    .mail{
+        padding: 0px;
+    }
+}
+
+
+@media screen and (max-width : 375px){
+    nav li{
+        display: block;
+        margin: 0px 10px ;
+    }
+
+    nav a {
+        font-size: 12px;
+    }
+
+    .accueil2 .container-fluid .chiffres{
+        padding-left: 0px;
+        padding-top: 70px;
+    }
+    .valeur .col img{
+        width: 280px;
+    }
+
+    .hero .flex {
+        display: block;
+        padding-top: 60px;
+    }
+}
+
+
+
+
